@@ -1,0 +1,549 @@
+@font-face {
+    font-family: 'DIN-Bold';
+    src: url(../fonts/DIN-Bold.eot);
+    src: url(../fonts/DIN-Bold.eot?#iefix) format('embedded-opentype'), url(../fonts/DIN-Bold.ttf) format('truetype'), url(../fonts/DIN-Bold.svg) format('svg');
+}
+@font-face {
+    font-family: 'DIN-Light';
+    src: url(../fonts/DIN-Light.eot);
+    src: url(../fonts/DIN-Light.eot?#iefix) format('embedded-opentype'), url(../fonts/DIN-Light.ttf) format('truetype'), url(../fonts/DIN-Light.svg) format('svg');
+}
+@font-face {
+    font-family: 'DIN-Medium';
+    src: url(../fonts/DIN-Medium.eot);
+    src: url(../fonts/DIN-Medium.eot?#iefix) format('embedded-opentype'), url(../fonts/DIN-Medium.ttf) format('truetype'), url(../fonts/DIN-Medium.svg) format('svg');
+}
+
+body {text-align: center;}
+.pw_sponser_p {
+  color: white; font-family: Roboto-light; font-size: 15px;margin-top: 10px;
+}
+
+.sponser_img {
+  width: 120px;
+}
+.speakers {
+  text-align: center;
+}
+.speakers_title {
+  font-family: DIN-Medium;text-align:left; margin: 10px 0; padding-bottom: 10px; border-bottom: 1.5px solid #e1e1e1;
+}
+
+.row {
+  text-align: center;
+}
+.navbar-nav {
+
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    margin: 0 20px;
+    float:none;
+}
+.navbar-nav > li a {
+  font-family: DIN-Medium;
+}
+
+.table>tbody>tr>td:first-child {
+  border-top: 1px solid black;
+  text-align: center;
+  line-height: 3.8;
+  font-weight: 400;
+  font-size: 14px;
+}
+.table>tbody>tr>td:nth-child(2) {
+  padding-right: 10%;
+}
+#header {
+  height:1000px;
+  background : url(../image/home/busan.png) no-repeat center top;
+  font-family: DIN-Bold;
+}
+
+#header h2 {
+    font-size: 65px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+}
+#header h5 {
+  font-size: 24px;
+  line-height: 1.12;
+  letter-spacing: 0.2px;
+  color:#ffffff;
+  margin-top:50px;
+}
+#header a {
+  font-size: 24px;
+  line-height: 0.92;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+#header a:hover {
+  opacity: .8;
+}
+#header .sponser {
+  margin-top: 70px;
+}
+#subCon {
+  width:100%;
+  height:auto;
+
+}
+
+#subCon .container {
+  background: white;
+  color: black;
+  font-family: DIN;
+
+}
+#subCon h4 {
+  font-size: 35px;
+  letter-spacing: 0.1px;
+  color: #4a4a4a;
+  text-decoration: underline;
+  margin: 40px 0;
+  font-family: DIN-Bold;
+}
+#subCon h4:hover {
+  opacity: .8;
+}
+
+#subCon img {
+  width: 163px;
+  height: 57px;
+}
+
+#subCon p {
+  width: 80%;
+  font-size: 14px;
+  letter-spacing: 0;
+  color: #bebebe;
+  font-family: DIN-Bold;
+  margin: 0 auto;
+}
+
+#mainCon {
+  width: 100%;
+  height:auto;
+  opacity: .9;
+
+}
+
+#mainCon .container {
+  background: #272727;
+  padding: 30px 33px;
+  font-family: DIN-Light;
+}
+#mainCon div {
+  color: #ffffff;
+  opacity: 1;
+}
+#mainCon  hr {
+  width: 80%;
+  color: white;
+  opacity: .4;
+}
+
+#mainCon .mainContitle h5 {
+  font-size: 24px;
+  line-height: 1.83;
+  letter-spacing: 0.2px;
+}
+#mainCon .mainContitle p {
+  font-family: DIN-Light;
+  font-size: 20px;
+  opacity: .8;
+}
+
+#mainCon .globalList h5 {
+  font-size: 30px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #ffffff;
+  margin : 60px 0 20px 0;
+}
+
+#mainCon .globalList p {
+  font-family: DIN-Medium;
+  width: 80%;
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto 130px auto;
+}
+#gallery {
+  width: 100%;
+  height:auto;
+}
+
+#gallery .container {
+  background: white;
+  padding: 30px 33px;
+  font-family: DIN-Light;
+}
+#gallery .sponsors {
+  font-family: DIN-Bold;
+  font-size: 25px;
+  letter-spacing: 3px;
+  color: #4a4a4a;
+  margin-top: 30px;
+}
+.multi-item-carousel .carousel-inner .active.left {
+  left: -50%;
+}
+.multi-item-carousel .carousel-inner .active.right {
+  left: 50%;
+}
+.multi-item-carousel .carousel-inner .next {
+  left: 50%;
+}
+.multi-item-carousel .carousel-inner .prev {
+  left: -50%;
+}
+.multi-item-carousel .carousel-inner > .item {
+  transition: 500ms ease-in-out all;
+  backface-visibility: visible;
+  transform: none !important;
+}
+.multi-item-carousel .carouse-control.left,
+.multi-item-carousel .carouse-control.right {
+  background-image: none;
+}
+
+
+
+
+#mainCon2 {
+  width:100%;
+  height: 1579px;
+  font-family: DIN-Bold;
+}
+#mainCon2 .container {background: white;}
+#mainCon2 .pillarsTit {
+    font-family: DIN-Bold;
+    font-size: 16px;
+    color: #828282;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+#mainCon2 .borderRight {
+  border-right:1px solid #dddddd;
+
+}
+#mainCon2 .pillars01 {
+    background: url(../image/home/glyphicon1.png) no-repeat center top 30px;
+    padding-top: 100px;
+    height: 200px;
+    font-family: DIN-Medium;
+}
+#mainCon2 .pillars02 {
+    background: url(../image/home/glyphicon2.png) no-repeat center top 30px;
+    padding-top: 100px;
+    letter-spacing: -1px;
+    height: 200px;
+    font-family: DIN-Medium;
+}
+#mainCon2 .pillars03 {
+    background: url(../image/home/glyphicon3.png) no-repeat center top 30px;
+    padding-top: 100px;
+    height: 200px;
+    font-family: DIN-Medium;
+}
+#mainCon2 .pillars04 {
+    background: url(../image/home/glyphicon4.png) no-repeat center top 30px;
+    padding-top: 100px;
+    height: 200px;
+    font-family: DIN-Medium;
+}
+#mainCon2 .pillars05 {
+    background: url(../image/home/glyphicon5.png) no-repeat center top 30px;
+    padding-top: 100px;
+    letter-spacing: -1px;
+    height: 200px;
+    font-family: DIN-Medium;
+}
+#mainCon2 .pillars06 {
+    background: url(../image/home/glyphicon6.png) no-repeat center top 30px;
+    padding-top: 100px;
+    letter-spacing: -1px;
+    height: 200px;
+    font-family: DIN-Medium;
+}
+#mainCon2 .sponsors {
+  font-family: DIN-Bold;
+  font-size: 25px;
+  letter-spacing: 3px;
+  color: #4a4a4a;
+  margin-top: 100px;
+}
+#mainCon2 .sponsors1 {
+  font-size: 20px;
+  letter-spacing: 0.1px;
+  color: #b7b7b7;
+  margin-top: 100px;
+}
+#myCarousel {
+  padding-top: 100px;
+}
+#location {
+  font-family: DIN-Bold;
+  width: 100%;
+  height: 1800px;
+}
+
+
+#location #sliderCon {
+  margin:0;
+  background:black;
+  height:1000px;
+}
+
+#location #subCon {
+  font-family: DIN-Bold;
+  width:100%;
+  height: 235px;
+  font-size: 35px;
+  line-height : 35px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #b7b7b7;
+  margin-top:85px;
+  padding-top: 60px;
+}
+
+#location #textCon {
+  width: 100%;
+  height: 100px;
+  margin:40px auto 0 auto;
+  padding-top: 26px;
+  border-top: 1px solid white;
+
+}
+#location .text_area {
+  color: white;
+  font-size: 24px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  font-family: DIN-Bold;
+}
+#location .text_area:nth-child(1) {
+  padding-left:0;
+}
+#location .text_area:nth-child(2) {
+  padding-left:0;
+  font-size: 16px;
+}
+#location .text_area:nth-child(3) {
+  padding-right:0;
+  font-size:16px;
+  text-align: right;
+}
+#location .text_area:nth-child(3) a {
+  color:white;
+}
+
+.footer{
+  margin: 20px auto;
+
+}
+
+.left_panel {
+  background: url("../image/home/left_panel.png") no-repeat center top;
+  width: 100%;
+  height: 500px;
+  padding: 100px 60px;
+  text-align: left;
+  color: white;
+  font-family: DIN-Light;
+}
+.right_panel {
+  background: url("../image/home/right_panel.png") no-repeat center top;
+  width: 100%;
+  height: 500px;
+  padding: 100px 60px;
+  text-align: left;
+  color: white;
+  font-family: DIN-Light;
+}
+#gallery2 {display: none;}
+/*IPhone6 Plus*/
+@media (max-width: 414px) {
+  .logo {
+  display: none;
+  }
+
+  #gallery {display: none;}
+  #gallery2 {display: block;}
+
+  .navbar-nav > li {
+      width: 100%;
+      margin: 0;
+    }
+
+  #header {
+    height: 80vh;
+    padding-top: 100px;
+  }
+  #header h2 {
+    font-size: 40px;
+  }
+  #header h5 {
+    font-size: 16px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #header a {
+    font-size: 16px;
+  }
+
+
+  #subCon h4 {
+    width: 100%;
+    margin: 40px auto;
+    font-size: 22px;
+  }
+  #subCon p {
+    width : 80%;
+  }
+
+  #mainCon .globalList h5 {
+    font-size: 20px;
+    margin:40px 0 20px 0;
+  }
+  #mainCon .globalList p {
+    margin: 0 auto 50px auto;
+  }
+  #mainCon2 .borderRight {
+    border-right: none;
+  }
+  .pillars {
+    margin:0;
+  }
+  #mainCon2 .pillarsTit {
+    margin-top: 30px;
+  }
+  #mainCon2 .sponsors {
+    margin-top: 60px;
+    font-size: 14px;
+  }
+  #mainCon2 .sponsors1 {
+    margin-top:60px;
+  }
+  #location #subCon {
+    width: 94%;
+    height: 110px;
+    margin:100px auto 0 auto;
+    padding-top:14px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  #location .location_box {
+    width: 94%;
+    margin:0 auto;
+  }
+  #myCarousel {
+    padding-top:0;
+  }
+  .btn_left {
+    left: 15px;
+  }
+  .btn_left {
+    position: absolute;
+    top: 40%;
+    left: 10px;
+  }
+
+  #location #textCon {
+    width: 94%;
+  }
+  #location .text_area:nth-child(2) {
+    margin: 30px 0;
+  }
+  #location .text_area:nth-child(3) {
+    padding-left: 0;
+    text-align: left;
+  }
+  #location #sliderCon {
+    height: 540px;
+  }
+  #location {
+    height: auto;
+    background: black;
+  }
+}
+
+
+/* Tablet*/
+@media(min-width:768px) and (max-width:1024px) {
+    #header {
+      height: 900px;
+    }
+    #header h2 {
+      font-size: 60px;
+      margin-top:100px;
+    }
+    .agenda_con {
+        margin-top:10% !important;
+    }
+    .tba_tit {
+      margin: 5% 0 !important;
+    }
+    .location_box {
+      width:98% !important;
+      margin: 20px auto 0 auto;
+    }
+    #location #textCon {
+      width:98% !important;
+    }
+
+}
+@media (min-width:1025px) {
+    .location_box {
+      width: 831px !important;
+      margin: 0 auto 0 auto;
+    }
+    #location #textCon {
+      width: 831px !important;
+    }
+  }
+  @media (max-width: 414px)  {
+    .img_sponsor {
+      width:100%;
+    }
+    .speakers_title {
+      margin-top: 50px;
+    }
+    .footer {
+      font-size: 10px;
+    }
+    .left_panel {height: 620px;}
+    .right_panel{height: 460px;}
+  }
+
+  @media (max-width: 360px)  {
+
+      #mainCon {
+        height: 1300px;
+      }
+      #mainCon2 {
+        height: 1700px;
+      }
+      .left_panel {height: 660px;}
+      .right_panel{height: 480px;}
+  }
+  /*IPhone5 */
+  @media (max-width: 320px) {
+    #header {
+      height: 680px;
+    }
+  }
